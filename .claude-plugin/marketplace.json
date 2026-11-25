@@ -1,6 +1,6 @@
 {
   "name": "financehub",
-  "description": "FinanceHub marketplace by MosoFin: the mosofin plugin connecting AI assistants to workspace-scoped, read-only financial data.",
+  "description": "FinanceHub marketplace by MosoFin: Financial review workflows for QuickBooks and other connected books through MosoFin: month-end close, flux, A/R, A/P, cash runway and multi-client sweeps. Read-only, workspace-scoped.",
   "owner": {
     "name": "MosoFin",
     "url": "https://mosofin.com",
@@ -10,9 +10,9 @@
     {
       "name": "mosofin",
       "source": "./",
-      "description": "Connect your AI assistant to MosoFin: authenticated, workspace-scoped, read-only financial data across connected SaaS platforms.",
+      "description": "Financial review workflows for QuickBooks and other connected books through MosoFin: month-end close, P&L flux, balance sheet and trial balance review, A/R aging and collections, A/P payment runs and vendor spend, cash runway, budget vs actual, owner packs, and health sweeps across client workspaces for accounting firms. 42 workflows for bookkeepers, controllers, CFOs and owners, with a saved review profile so every analysis uses your materiality and targets. Read-only: it never posts, pays, sends or reconciles anything. Requires a MosoFin account.",
       "category": "finance",
-      "version": "0.6.3",
+      "version": "0.7.0",
       "author": {
         "name": "MosoFin",
         "email": "support@mosofin.com"
@@ -22,10 +22,28 @@
       "keywords": [
         "mosofin",
         "mcp",
-        "integrations",
-        "automation",
-        "productivity",
-        "finance"
+        "finance",
+        "accounting",
+        "bookkeeping",
+        "quickbooks",
+        "quickbooks-online",
+        "month-end-close",
+        "financial-review",
+        "flux-analysis",
+        "profit-and-loss",
+        "balance-sheet",
+        "trial-balance",
+        "accounts-receivable",
+        "collections",
+        "accounts-payable",
+        "vendor-spend",
+        "cash-flow",
+        "cash-runway",
+        "budget-vs-actual",
+        "fractional-cfo",
+        "client-advisory",
+        "accounting-firm",
+        "productivity"
       ]
     }
   ]

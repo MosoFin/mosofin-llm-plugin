@@ -808,6 +808,10 @@ submission-only and must not change tool logic.
 | `/mosofin:query-workspace` | `list_workspaces`, `get_agent_datasources`, `get_datasource_tools`, `invoke_datasource_api_tool` |
 | `/mosofin:save-skill` | `list_workspaces`, `get_skills`, `get_my_skill`, `create_skill` |
 | `/mosofin:connect` | `list_workspaces` only (to verify sign-in); sign-in itself is the host's OAuth flow |
+| `/mosofin:get-started`, `/mosofin:setup` | `list_workspaces`, `get_agent_datasources`, `invoke_datasource_api_tool` |
+| `/mosofin:review-profile`, `/mosofin:set-profile` | `list_workspaces`, `get_skills`, `get_my_skill`, `create_skill` (profile saved as a private skill, after a fresh yes) |
+| Role skills (`bookkeeper`, `controller`, `receivables`, `payables`, `fractional-cfo`, `accounting-firm`), `quickbooks` and the analysis commands | `list_workspaces`, `get_agent_datasources`, `get_datasource_tools`, `invoke_datasource_api_tool` |
+| Agents `mosofin-analyst`, `client-portfolio-analyst` | `list_workspaces`, `get_agent_datasources`, `get_datasource_tools`, `invoke_datasource_api_tool` |
 
 Replay of a skill’s recipe uses **query-workspace** (`invoke_datasource_api_tool`),
 not invented numbers.
